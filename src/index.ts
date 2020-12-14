@@ -8,7 +8,7 @@ import { sessionMiddleware } from './middleware/session.middleware';
 /**
  * specify the port will run on
  */
-const port = 8081;
+const port = 8080;
 const app = express();
 
 /**
