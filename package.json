@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "This is a template for a basic express application",
   "scripts": {
-    "start": "nodemon src/index.ts",
+    "start": "npm install && nodemon src/index.ts",
     "lint": "tslint src/**/*.ts",
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint:fix": "npm run lint -- --fix"
