@@ -4,6 +4,6 @@ export default class GuestList {
         public guestName: string,
         public plusName: string,
         public rsvp: boolean,
-    ){}
+    ) {}
 
 }

@@ -18,7 +18,7 @@ export async function findAll() {
     }
     console.log('Found all invited guest');
     return undefined;
-};
+}
 
 export async function findByName(name: string) {
     console.log('Finding invitee by name: ' + name);
@@ -36,7 +36,7 @@ export async function findByName(name: string) {
         client && client.release();
     }
     return undefined;
-};
+}
 
 export async function updateRSVP(guest: Partial<GuestList>) {
     const oldGuest = await findByName(guest.guestName);

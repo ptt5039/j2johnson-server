@@ -1,4 +1,4 @@
-import { Pool } from "pg";
+import { Pool } from 'pg';
 
 const connectionConfiguration = {
    user: process.env.JTJ_DB_USERNAME || 'postgres',

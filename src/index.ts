@@ -8,16 +8,16 @@ import { sessionMiddleware } from './middleware/session.middleware';
 /**
  * specify the port will run on
  */
-const port = 8080;
+const port = 3000;
 const app = express();
 
 /**
  * Loggin middleware
- * This callback will be invoked anytime a request is made 
+ * This callback will be invoked anytime a request is made
  * regardless of url or http method
- *  */ 
+ *  */
 app.use((req, res, next) => {
-  console.log(`request made with url: ${req.url} and method ${req.method}`)
+  console.log(`request made with url: ${req.url} and method ${req.method}`);
   next(); // pass request on to search for the next piece of middleware
 });
 
@@ -53,5 +53,5 @@ app.use('/list', listRouter);
 
 
 app.listen(port, () => {
-    console.log('app started on port: ' + port)
+    console.log('app started on port: ' + port);
 });
