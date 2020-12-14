@@ -2,7 +2,6 @@
   "name": "server",
   "version": "1.0.0",
   "description": "This is a template for a basic express application",
-  "main": "src/index.ts",
   "scripts": {
     "start": "node src/index.ts",
     "lint": "tslint src/**/*.ts",
