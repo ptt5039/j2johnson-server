@@ -1,8 +1,8 @@
 import express from 'express';
 import bodyParser from 'body-parser';
-import { listRouter } from './src/router/list.router';
-import { authRouter } from './src/router/auth.router';
-import { sessionMiddleware } from './src/middleware/session.middleware';
+import { listRouter } from './router/list.router';
+import { authRouter } from './router/auth.router';
+import { sessionMiddleware } from './middleware/session.middleware';
 
 
 /**
